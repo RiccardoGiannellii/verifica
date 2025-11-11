@@ -61,6 +61,18 @@ public class Client {
             } else if(richiestaDisponibilita.equals("2")){
                 out.println("BUY");
 
+              System.out.println("Scegli quantita e tipologia di biglitti che vuoi comprare");  
+              System.out.println("Tipologia: "); 
+              String tipologia = keyboard.nextLine();
+              out.println(tipologia);
+
+              System.out.println("Quantità: "); 
+              String quantita = keyboard.nextLine();
+              out.println(quantita);
+
+              String risposta = in.readLine();
+              System.out.println(risposta);
+
             } else if(richiestaDisponibilita.equals("3")){
                 out.println("QUIT");
 

@@ -31,7 +31,17 @@ public class Disponibilita{
         return parterre;
     }
 
+    public void setGold(int gold) {
+        this.gold = gold;
+    }
 
+    public void setPit(int pit) {
+        this.pit = pit;
+    }
+
+    public void setParterre(int parterre) {
+        this.parterre = parterre;
+    }
         
     }
 
